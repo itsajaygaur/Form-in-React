@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+h3{
+    text-decoration: none;
+    line-height: 18px;
+}
+
+span{
+    float: right;
+    margin-right: 30px;
+    font-weight: 100;
+}

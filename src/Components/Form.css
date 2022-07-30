@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    background: lightgrey
+  }
+  
+  .form-apply{
+    margin: 10px 20px;
+  }
+  .form-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    /* align-items: center; */
+  }
+  h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  input, select, option{
+    width: 300px;
+    padding: 5px 8px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  .required::after{
+    content: '*';
+    color: red;
+  }
+  
+  .button-container{
+    /* float: right; */
+    display: flex;
+    justify-content: end;
+  }
+  
+  .cancel-btn{
+    padding: 15px 20px;
+    background: lightgrey;
+    border: 1px solid red;
+    color: red;
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  
+  .submit-btn{
+    padding: 15px 20px;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin: 10px 20px;
+  }
